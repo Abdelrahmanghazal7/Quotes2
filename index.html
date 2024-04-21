@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="https://amira-abdelmoeen.github.io/RandomQuotes/Css/risha.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="qoutes d-flex justify-content-center align-items-center  text-center row">
+        <div class=" qoutes-content p-5 col-md-9 col-lg-6 col-xl-6">
+            <i class="fa-solid fa-quote-left d-flex justify-content-start text-white"></i>
+            <p class="text-white  mb-2" id="quote">Be yourself; everyone else is already taken. </p>
+            <i class="fa-solid fa-quote-right d-flex justify-content-end text-white"></i>
+            <span class="text-white mt-2">-- </span>
+            <span class="text-white fs-5 mt-2" id="writer">Oscar Wilde</span>
+            <div class="footer d-flex justify-content-between mt-5 ">
+                <div class="icons  text-white">
+                    <i class="fa-regular fa-copy " onclick="copyText()"></i>
+                    <i class="fa-brands fa-twitter  ms-1" onclick="shareOnTwitter()"></i>
+                    <i class="fa-brands fa-whatsapp ms-1" onclick="shareOnWhatsApp()"></i>
+                </div>
+
+                <div class=" ">
+                    <button class="bottn " onclick="randomQuotes()">New Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

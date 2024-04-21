@@ -1,0 +1,42 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.qoutes{
+    background-image: url(https://amira-abdelmoeen.github.io/RandomQuotes/Css/bg-qoutes4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 !important;
+}
+#quote{
+    height: 50px;
+    font-size: 22px;
+}
+.bottn{
+   background-color: #f67a04;
+   color: white;
+   border-style: none;
+   padding: 8px 15px;
+   border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 5px;
+}
+.qoutes-content{
+   background-color:#046daf6b;
+   width: 50%;
+}
+.icons i{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: #f67a04;
+     line-height: 40px;
+}
+.icons:hover{
+    cursor: pointer;
+}
